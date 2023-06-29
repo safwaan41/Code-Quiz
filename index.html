@@ -8,10 +8,27 @@
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
-    <div id="prompt"></div>
-    <ul class="button-container">
+    <div class="start">
+<h1>Quiz game</h1>
+<p>play my game</p>
+        <button class="start-button">Begin</button>
+    </div>
+    <div class = "questionContainer">
+        <h2 id="prompt"></h2>
+        <div class="button-container">
+    
+        </div>
+        <div id="timer"></div>
+    </div>
+    <section class="gameOver">
+        <h1>GAME OVER</h1>
+        <h2>Your Score is <span id='score'></span></h2>
+        <form class = "form" action = " ">
+            <label>Your Initials: </label><input id="username" type = "text" placeholder="Initials"></form>
+        <h2><span></span> High Scores</h2>
+        <ul id = scoreboard></ul>
 
-    </ul>
+    </section>
 
 
     <script src="./assets/script.js"></script>

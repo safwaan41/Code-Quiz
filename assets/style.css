@@ -1,19 +1,30 @@
+/* body
+{
+    display: flex;
+    justify-content: center;
+    
+} */
+
+.hide{
+    display: none;
+}
 #prompt
 {
     text-align: center;
     font-size: 45px;
-    margin-top: 200px;
+    margin-top: 75px;
 }
 
-li
+.btn
 {
-    font-size: 30px;
+    font-size: 35px;
     list-style: none;
     text-align: center;
-    margin: 50px;
-    margin-left: 675px;
+    margin: 30px;
+    margin-left: 425px;
     width: 350px;
     line-height: 75px;
     border: 3px solid black;
     border-radius: 25%;
 }
+
