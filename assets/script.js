@@ -126,7 +126,7 @@ function showQuestion() {
 
 var score = document.getElementById("score");
 startButton.addEventListener('click',init);
-var count = 30;
+var count = 20;
 var timerDisplay = document.querySelector("#timer")
 // Timer function
 function gameOverLogic(){
